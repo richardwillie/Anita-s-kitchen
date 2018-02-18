@@ -1,52 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Anita's Kitchen</title>
     <meta charset="utf-8">
+    <title>Anita's Kitchen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href=<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
   </head>
   <body>
-    <div class="container fluid">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="col-lg-3">
-            <div id="happy">
-              <h2>happy hour</h2>
-            </div>
-            <div id="party">
-              <h2>party time</h2>
-            </div>
-           </div>
-
-          <div class="col-lg-3">
-             <div id="breakfast">
-               <div class="overlay-row">
-                 <h2 class="text">breakfast</h2>
-               </div>
-             </div>
-           </div>
-           <div class="col-lg-3">
-             <div id="lunch">
-               <div class="overlay-row">
-                 <h2 class="text">lunch</h2>
-               </div>
-             </div>
-           </div>
-           <div class="col-lg-3">
-             <div id="dinner">
-               <div class="overlay-row">
-                 <h2 class="text">dinner</h2>
-               </div>
-             </div>
-           </div>
+    <div class="col-md-12 media">
+      <div class="col-md-12 overlay">
+        <div class="menu">
+          <div id="myNav" class="overlayMenu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"&times;</a>
           </div>
         </div>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-lg-3">
+          <div id="happy">
+            <h2>happy hour</h2>
+          </div>
+          <div id="party">
+            <h2>party time</h2>
+          </div>
+         </div>
+        <div class="col-lg-3" id="breakfast">
+             <div class="overlay-row">
+               <h2 class="text">breakfast</h2>
+             </div>
+         </div>
+         <div class="col-lg-3" id="lunch">
+             <div class="overlay-row">
+               <h2 class="text">lunch</h2>
+             </div>
+         </div>
 
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+         <div class="col-lg-3" id="dinner">
+             <div class="overlay-row">
+               <h2 class="text">dinner</h2>
+             </div>
+         </div>
+        </div>
+      </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
-</html>
