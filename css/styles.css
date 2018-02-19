@@ -16,4 +16,30 @@ text-align: center;
 font-family: 'Handlee', Open Sans;
 color: white;
 font-size: 60px;
-}}
+}
+.menu{
+margin-top: 20px;
+margin-left: 20px;
+background-color: transparent;
+height: 50px;
+width: 75px;
+}
+.navbar-toggler-icon{
+   font-size:50px;
+   cursor:pointer;
+   color:#ffffff;
+}
+.overlayMenu {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #F15A29;
+overflow-x: hidden;
+transition: 0.5s;
+}
+#view{
+  color: #F15A29 ;
+}
