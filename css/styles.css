@@ -6,9 +6,14 @@ background-image:url("../images/assets/backgrounds/landing.jpg");
 background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 margin-top: 70px;
 }
+.header{
+margin-top: 3%;
+text-align: center;
+font-family: 'Handlee', Open Sans;
+color: white;
+font-size: 60px;
+}}
