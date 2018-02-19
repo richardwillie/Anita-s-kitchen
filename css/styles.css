@@ -112,3 +112,81 @@ span{
  #dinner:hover .overlay-row{
    opacity: 3;
  }
+ .fast{
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 0%;
+  margin-top: 5%;
+  padding: 0px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ .fastfood{
+   padding: 5%;
+   text-align: left;
+ }
+ .drinks{
+  padding: 5%;
+  text-align: right;
+}
+.faster{
+  display: flex;
+  margin-bottom: 10%;
+  margin-left: 0%;
+  margin-right: 30%;
+  margin-top: 5%;
+  padding: 0px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.bgFoods{
+  background-image:url(../images/assets/backgrounds/foodsBg.jpg);
+  padding: 0;
+  height: 600px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.foods{
+  height: 400px;
+  width: 80%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #ffffff;
+}
+.foodHead{
+height: 50px;
+width: 100%;
+background-color: #ccc;
+}
+#burger{
+text-align: center;
+padding: 50px;
+}
+.customerAbout{
+  width: 80%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#articleh2{
+  color:#F15A29;
+}
+#article{
+  padding: 5%;
+  text-align: center;
+}
