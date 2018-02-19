@@ -45,5 +45,70 @@ transition: 0.5s;
 }
 .logo{
   text-align: center;
-
 }
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+.overlayMenu a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+.overlayMenu a:hover, .overlayMenu a:focus {
+color: #f1f1f1;
+}
+.overlayMenu .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+span{
+  font-size: 50px;
+  cursor:pointer;
+  color: #ffffff:
+}
+#happy{
+    color: white;
+    background-color: grey;
+    padding: 10px;
+  }
+#party{
+    color: white;
+    background-color: #F15A29;
+    padding: 10px;
+  }
+#breakfast{
+    background-image: url(../images/assets/foodtop/breakfast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 205.5px;
+  }
+#lunch{
+    background-image: url(../images/assets/foodtop/lunch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 205.5px;
+  }
+7#breakfast:hover .overlay-row{
+  opacity: 3;
+}
+#lunch:hover .overlay-row{
+  opacity: 3;
+}
+#dinner{
+   background-image: url(../images/assets/foodtop/dinner.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 205.5px;
+ }
+ #dinner:hover .overlay-row{
+   opacity: 3;
+ }
