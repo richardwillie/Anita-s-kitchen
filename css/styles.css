@@ -10,6 +10,14 @@ background-attachment: fixed;
 background-size: cover;
 margin-top: 70px;
 }
+.overlay{
+padding: 0;
+margin: auto;
+width: 100%;
+height: 850px;
+background: black;
+background:rgba(0,0,0,0.0);
+}
 .header{
 margin-top: 3%;
 text-align: center;
@@ -90,6 +98,7 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 205.5px;
+    float: left;
   }
 #lunch{
     background-image: url(../images/assets/foodtop/lunch.jpg);
@@ -112,3 +121,33 @@ span{
  #dinner:hover .overlay-row{
    opacity: 3;
  }
+ .overlay-row {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E5E5E5 ;
+  color: #FFFFFF ;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.text {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.header{
+margin-top: 3%;
+text-align: center;
+font-family: 'Handlee', Open Sans;
+color: white;
+font-size: 60px;
+}
