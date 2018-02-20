@@ -23,4 +23,6 @@ This website is an on line tool for Anita's Kitchen where the food menus,drinks,
 
 * scroll through and open the html file on your browser.
 
+* this program was written using the html language.there is some javscript also used.
+
 # link https://richardwillie.github.io/Anita-s-kitchen/ #
